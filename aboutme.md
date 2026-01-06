@@ -1,15 +1,24 @@
 ---
 layout: page
-title: About me
+title: Projects
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Here are some of the projects I've been working on:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+### Project 1
+**Description:** Brief description of your first project.  
+**Technologies:** List the technologies used (e.g., Python, React, etc.)  
+**Link:** [View Project](#)
 
-What else do you need?
+### Project 2
+**Description:** Brief description of your second project.  
+**Technologies:** List the technologies used  
+**Link:** [View Project](#)
 
-### My story
+### Project 3
+**Description:** Brief description of your third project.  
+**Technologies:** List the technologies used  
+**Link:** [View Project](#)
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+---
+
