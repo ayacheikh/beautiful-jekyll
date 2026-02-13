@@ -25,13 +25,13 @@ title: Projects
 
   <a href="https://github.com/yourusername/project2" class="project-item" target="_blank">
     <div class="project-header">
-      <h3>Project 2</h3>
+      <h3>Concurent Search Engine</h3>
     </div>
     <div class="project-description">
-      Brief description of your second project. Explain what problem it solves and what makes it interesting.
+      Currently tailored to the University of San Francisco's website crawling, but adjustable to any desired seed url.
     </div>
     <div class="project-technologies">
-      <strong>Technologies:</strong> Java, Spring Boot, etc.
+      <strong>Technologies:</strong> Go, SQlite, HTML/CSSS, Goroutines and Channels
     </div>
     <div class="project-link">
       View on GitHub
@@ -40,10 +40,10 @@ title: Projects
 
   <a href="https://github.com/yourusername/project3" class="project-item" target="_blank">
     <div class="project-header">
-      <h3>Project 3</h3>
+      <h3>Course Catalog Chatbot</h3>
     </div>
     <div class="project-description">
-      Brief description of your third project. Explain what problem it solves and what makes it interesting.
+      AI-powered course catalog chatbot for the University of San Franciso. It allows users to ask natural language questions about USF courses (instructors, times, locations, buildings, etc.) and get accurate answers from a database. 
     </div>
     <div class="project-technologies">
       <strong>Technologies:</strong> Go, PostgreSQL, etc.
