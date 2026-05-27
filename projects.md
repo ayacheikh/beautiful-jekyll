@@ -46,7 +46,22 @@ title: Projects
       AI-powered course catalog chatbot for the University of San Franciso. It allows users to ask natural language questions about USF courses (instructors, times, locations, buildings, etc.) and get accurate answers from a database. 
     </div>
     <div class="project-technologies">
-      <strong>Technologies:</strong> Go, PostgreSQL, etc.
+      <strong>Technologies:</strong> Go, SQLite, etc.
+    </div>
+    <div class="project-link">
+      View on GitHub
+    </div>
+  </a>
+
+  <a href="https://github.com/ayacheikh/riscv-pipeline-processor.git" class="project-item" target="_blank">
+    <div class="project-header">
+      <h3>5-Staged Pipelined RISC-V Processor</h3>
+    </div>
+    <div class="project-description">
+      Designed and simulated a 64-bit 5-stage pipelined RISC-V processor in Digital, featuring a custom Hazard Unit that automatically handles data forwarding, load-use stalls, and branch flushing.
+    </div>
+    <div class="project-technologies">
+      <strong>Technologies:</strong> Digital, RISC-V, Assembly 
     </div>
     <div class="project-link">
       View on GitHub
