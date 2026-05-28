@@ -23,7 +23,7 @@ title: Projects
     </div>
   </a>
 
-  <a href="https://github.com/yourusername/project2" class="project-item" target="_blank">
+  <a href="https://github.com/ayacheikh/search-engine-.git" class="project-item" target="_blank">
     <div class="project-header">
       <h3>Concurent Search Engine</h3>
     </div>
@@ -38,7 +38,7 @@ title: Projects
     </div>
   </a>
 
-  <a href="https://github.com/yourusername/project3" class="project-item" target="_blank">
+  <a href="https://github.com/ayacheikh/course-catalog-chatbot.git" class="project-item" target="_blank">
     <div class="project-header">
       <h3>Course Catalog Chatbot</h3>
     </div>
