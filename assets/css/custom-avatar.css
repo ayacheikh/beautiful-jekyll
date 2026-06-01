@@ -1,12 +1,31 @@
-/* Fix avatar to maintain circular shape even with non-square images */
+/* Consistent avatar crop (mypic2.png) on every page and scroll state */
+.navbar-custom .avatar-container .avatar-img-border {
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+}
+
 .navbar-custom .avatar-container .avatar-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
+  object-position: center 25%;
 }
 
 .navbar-custom .avatar-container {
   aspect-ratio: 1 / 1;
 }
 
+/* Keep the same photo visible after scroll (theme hides it by default) */
+.navbar-custom.top-nav-short .avatar-container {
+  opacity: 1;
+  visibility: visible;
+  width: 3.125rem;
+  bottom: -1.5rem;
+}
+
+@media (min-width: 1200px) {
+  .navbar-custom.top-nav-regular .avatar-container .avatar-img-border,
+  .navbar-custom.top-nav-short .avatar-container .avatar-img-border {
+    width: 100%;
+  }
+}
