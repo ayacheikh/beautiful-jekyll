@@ -83,4 +83,19 @@ title: Projects
       View on GitHub
     </div>
   </a>
+
+<a href="https://github.com/ayacheikh/airbnb-price-predictor.git" class="project-item" target="_blank">
+    <div class="project-header">
+      <h3>AirBnB Price Predictor</h3>
+    </div>
+    <div class="project-description">
+      Built and evaluated machine learning models to predict nightly Airbnb listing prices from real market data, performing exploratory data analysis, feature engineering, and model comparison to minimize prediction error.
+    </div>
+    <div class="project-technologies">
+      <strong>Technologies:</strong> Python, Jupyter Notebook, scikit-learn, pandas, Random Forest
+    </div>
+    <div class="project-link">
+      View on GitHub
+    </div>
+  </a>
 </div>
