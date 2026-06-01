@@ -67,4 +67,20 @@ title: Projects
       View on GitHub
     </div>
   </a>
+
+
+ <a href="https://github.com/ayacheikh/rr-strategy-game.git" class="project-item" target="_blank">
+    <div class="project-header">
+      <h3>R-R Strategy Game</h3>
+    </div>
+    <div class="project-description">
+      Built a two-player abstract strategy game in Python with AI opponents ranging from random to minimax, simulating 300 games to compare player performance and analyze board fairness.
+    </div>
+    <div class="project-technologies">
+      <strong>Technologies:</strong> Python, Heuristic Search, Minimax, Alpha-Beta Prunning, Object-Oriented Design
+    </div>
+    <div class="project-link">
+      View on GitHub
+    </div>
+  </a>
 </div>
