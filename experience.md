@@ -25,7 +25,7 @@ share-description: Aya Cheikh's research, industry, teaching, and leadership exp
 
 <div class="entry">
   <div class="entry-head">
-    <h3>Circuit Simulation Platform</h3>
+    <h3>Golden Gates Circuit Simulation Platform</h3>
     <span class="entry-date">May 2026 – Present</span>
   </div>
   <p class="entry-org">Faculty Research Collaboration, University of San Francisco</p>
@@ -102,10 +102,7 @@ share-description: Aya Cheikh's research, industry, teaching, and leadership exp
     <span class="entry-date">Expected May 2027</span>
   </div>
   <p class="entry-org">B.S. Computer Science, AI Concentration · San Francisco, CA</p>
-  <ul>
-    <li><strong>GPA:</strong> 3.85 · <strong>Dean's List:</strong> every semester (Fall 2023 – Spring 2026)</li>
-    <li><strong>Relevant coursework:</strong></li>
-  </ul>
+  <p style="margin-bottom: 0.5rem;"><strong>Relevant coursework:</strong></p>
   <ul class="chips">
     <li>Data Structures &amp; Algorithms</li><li>C &amp; Systems Programming</li><li>Computer Architecture</li>
     <li>Operating Systems</li><li>Linear Algebra</li><li>Foundations of AI</li><li>Software Development</li>
