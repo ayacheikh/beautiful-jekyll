@@ -1,0 +1,267 @@
+/* Site-wide additions: hero, buttons, chips, timeline cards */
+
+:root {
+  --accent: #0085A1;
+  --accent-dark: #006a80;
+  --ink: #2c3e50;
+  --muted: #6b7280;
+  --card: #ffffff;
+  --line: #e5e7eb;
+  --chip-bg: #eef6f8;
+}
+
+/* ---------- Hero ---------- */
+.hero {
+  text-align: center;
+  margin: 0.5rem auto 2.5rem;
+  max-width: 760px;
+}
+
+.hero-lead {
+  font-size: 1.25rem;
+  line-height: 1.7;
+  color: #404040;
+  margin-bottom: 1.5rem;
+}
+
+.hero-status {
+  display: inline-block;
+  background: var(--chip-bg);
+  color: var(--accent-dark);
+  border-radius: 999px;
+  padding: 0.35rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.btn-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.btn-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.25rem;
+  border-radius: 999px;
+  border: 2px solid var(--accent);
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.btn-pill:hover,
+.btn-pill:focus {
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-pill.primary {
+  background: var(--accent);
+  color: #fff;
+}
+
+.btn-pill.primary:hover,
+.btn-pill.primary:focus {
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+}
+
+/* ---------- Section headings ---------- */
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 3.5rem 0 1.5rem;
+  color: var(--ink);
+}
+
+.section-title.left {
+  text-align: left;
+  margin-top: 3rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--line);
+}
+
+.section-title.left:first-child {
+  margin-top: 0;
+}
+
+/* ---------- Highlight cards (home) ---------- */
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin: 1rem auto;
+}
+
+.highlight {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-top: 4px solid var(--accent);
+}
+
+.highlight .kicker {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.highlight h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+  color: var(--ink);
+}
+
+.highlight p {
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: #555;
+  margin: 0;
+}
+
+/* ---------- Chips ---------- */
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.chips li {
+  background: var(--chip-bg);
+  color: var(--accent-dark);
+  border-radius: 999px;
+  padding: 0.2rem 0.75rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+/* Skill categories under the icon grid */
+.skill-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  max-width: 1000px;
+  margin: 1.5rem auto 0;
+}
+
+.skill-group {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.skill-group h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+  color: var(--ink);
+}
+
+/* ---------- Timeline entries (experience page) ---------- */
+.entry {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 1.5rem 1.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1.25rem;
+  border-left: 4px solid var(--accent);
+}
+
+.entry-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.25rem 1rem;
+}
+
+.entry-head h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--ink);
+}
+
+.entry-date {
+  font-size: 0.9rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.entry-org {
+  font-style: italic;
+  color: #555;
+  margin: 0.15rem 0 0.75rem;
+  font-size: 0.98rem;
+}
+
+.entry ul {
+  margin: 0 0 0.75rem;
+  padding-left: 1.2rem;
+}
+
+.entry li {
+  font-size: 0.98rem;
+  line-height: 1.6;
+  margin-bottom: 0.25rem;
+}
+
+.entry .chips {
+  margin-top: 0.5rem;
+}
+
+/* Project extras */
+.project-meta {
+  font-size: 0.85rem;
+  color: var(--muted);
+  font-weight: 600;
+  margin-top: -0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.project-item .chips {
+  margin-bottom: 1rem;
+}
+
+.project-item.featured {
+  border-top: 4px solid var(--accent);
+}
+
+.page-intro {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 720px;
+  margin: 0 auto 2rem;
+}
+
+@media (max-width: 576px) {
+  .hero-lead {
+    font-size: 1.1rem;
+  }
+  .section-title {
+    font-size: 1.6rem;
+  }
+  .entry {
+    padding: 1.25rem;
+  }
+}
